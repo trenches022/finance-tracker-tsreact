@@ -51,5 +51,5 @@ UUID – Generates unique IDs for transactions
 # 🎨 UI Preview
 
 ![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot.png)
-![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot1.png)
+
 
