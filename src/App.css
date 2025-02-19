@@ -1,0 +1,90 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.balance-card, .transactions-form, .transactions-list, .charts-container {
+  background-color: #1E1E2E;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.balance-card h2 {
+  color: #BB86FC;
+  text-align: center;
+}
+
+.balance-card .balance{
+  text-align: center;
+  font-size: 25px;
+}
+
+.transactions-form input,
+.transactions-form select,
+.transactions-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.transactions-form input,
+.transactions-form select {
+  background-color: #2C2C3A;
+  color: #E0E0E0;
+}
+
+.transactions-form button {
+  background-color: #BB86FC;
+  color: white;
+  cursor: pointer;
+}
+
+.transactions-form button:hover {
+  background-color: #9B6ED6;
+}
+
+.transactions-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.transactions-list .income {
+  color: #4CAF50;
+}
+
+.transactions-list .expense {
+  color: #E53935;
+}
+
+.transactions-list button {
+  background-color: #E53935;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transactions-list button:hover {
+  background-color: #D32F2F;
+}
+
+.charts-container {
+  width: 100%;
+  max-width: 600px;
+}
