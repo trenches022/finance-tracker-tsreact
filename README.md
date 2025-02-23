@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# 💰 Financial Tracker: Manage Your Expenses Easily
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + TypeScript financial tracker that helps users monitor their income and expenses. The app features a modern dark-themed UI with purple highlights, intuitive transaction management, and data visualization
 
-Currently, two official plugins are available:
+![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#  Key Features
 
-## Expanding the ESLint configuration
+📊 Real-Time Balance Updates – Instantly see how transactions affect your balance.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+📝 Transaction Management – Add, categorize, and delete transactions effortlessly.
 
-- Configure the top-level `parserOptions` property like this:
+📈 Data Visualization – Charts provide a clear breakdown of income and expenses.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+💾 Persistent Data – Saves transaction history locally using localStorage.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+🎨 Dark UI with Purple Accents – A sleek, modern design with a user-friendly interface.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+# 🛠 Technologies Used:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="23" height="23" alt="React" /></a> React – Frontend framework
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="23" height="23" alt="JavaScript" /></a> TypeScript – Core language
+
+<a href="https://vitejs.dev/" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="23" height="23" alt="Vite" /></a> Vite – Fast development environment
+
+<a href="https://docs.pmnd.rs/zustand/getting-started/introduction" target="_blank"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="23" height="23" alt="Zustand" /></a> Zustand – Lightweight global state management
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/15099/15099747.png" width="23" height="23" alt="LocalStorage" /></a> LocalStorage – Saves user progress
+
+UUID – Generates unique IDs for transactions
+
+# React Hooks Used
+
+🌀 useState – Manages component states.
+
+🔄 useEffect – Handles side effects (e.g., saving progress).
+
+🗂 Zustand Store – Manages global state efficiently.
+
+# How It Works:
+
+1️⃣ Enter transaction details – Select type (income/expense), amount, category, and optional comment.
+
+2️⃣ Submit the transaction – The balance updates in real-time.
+
+3️⃣ View transaction history – See past transactions and remove them if needed.
+
+4️⃣ Check statistics – The chart provides an overview of your financial activity.
+
+# 🎨 UI Preview
+
+![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot.png)
+![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot2.png)
+
