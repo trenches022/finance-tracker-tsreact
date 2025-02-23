@@ -88,3 +88,45 @@
   width: 100%;
   max-width: 600px;
 }
+
+@media (max-width: 768px) {
+  .balance-card, .transactions-form, .transactions-list, .charts-container {
+  max-width: 90%;
+  padding: 15px;
+  }
+  
+  .transactions-list li {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .transactions-list button {
+  margin-top: 5px;
+  }
+  }
+  
+  @media (max-width: 480px) {
+  .homepage-container {
+  padding: 10px;
+  }
+  
+  .balance-card h2 {
+  font-size: 18px;
+  }
+  
+  .balance-card .balance {
+  font-size: 20px;
+  }
+  
+  .transactions-form input,
+  .transactions-form select,
+  .transactions-form button {
+  padding: 8px;
+  font-size: 14px;
+  }
+  
+  .transactions-list li {
+  font-size: 14px;
+  }
+  }
