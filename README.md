@@ -2,7 +2,7 @@
 
 A React + TypeScript financial tracker that helps users monitor their income and expenses. The app features a modern dark-themed UI with purple highlights, intuitive transaction management, and data visualization
 
-![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot.png)
+![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/src/assets/finance-tracker-screenshot.png)
 
 #  Key Features
 
@@ -50,6 +50,6 @@ UUID – Generates unique IDs for transactions
 
 # 🎨 UI Preview
 
-![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot.png)
-![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/finance-tracker-screenshot2.png)
+![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/src/assets/finance-tracker-screenshot.png)
+![Finance Tracker Screenshot](https://raw.githubusercontent.com/trenches022/finance-tracker-tsreact/main/src/assets/finance-tracker-screenshot2.png)
 
